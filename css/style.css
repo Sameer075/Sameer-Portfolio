@@ -75,6 +75,9 @@ a:hover{
   align-items: center;
   justify-content: center;
 }
+#rnav i{
+  font-size: 30px;
+}
 #nav #rnav{
   font-weight: 900;
   z-index: 1;
@@ -132,7 +135,10 @@ a:hover{
   height: 30%;
   background-color: #66BFBF;
   padding: 50px 0 20px;
+
 }
+#bottom-container  a{
+  color: #fff;}
 
 .bottom-cloud {
   position: absolute;
@@ -157,6 +163,26 @@ a:hover{
   height: 6vh;
   justify-content: space-around;
   margin: 5vh;
+}
+
+#resume{
+  width: 20%;
+  height: 40px;
+  background-color: #66BFBF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  margin-bottom: 5%;
+
+}
+#resume a{
+ color: #fff;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: 600;
+
 }
 
 #certificate-row{
@@ -233,5 +259,12 @@ a:hover{
     border-radius: 5%;
     margin: 5vh;
   }
+  #resume a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+   
+   }
  
 }
